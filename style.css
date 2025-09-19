@@ -1,0 +1,205 @@
+* {
+	margin:0;
+	padding:0;
+}
+ main{ 
+ width: 100%;
+ }
+  
+  .header-main {width:100%;
+   background: brown;
+   height:  150px;
+ 
+  }
+  
+    .header-main .logo{ 
+      width: 30%;
+	      float:   left;
+		  text-align: right;
+	     }
+      .header-main h1
+	  {
+  font-family: cursive;
+  color: white;
+  }
+nav {
+    width: 70%;
+    float: right;
+	
+   }
+   
+    nav ul {
+	 margin-left: 10px;
+		list-style: none;
+		  }
+		
+nav ul li {
+    float: left;
+    padding: 40px 20px 10px 100px;
+    font-size: 25px;
+	color: white;
+	cursor: pointer;
+}
+	nav ul li:hover{
+background-color: black;
+	}		
+	h2 {
+    font-size: 50px;
+        color: brown;;
+    background-color: black;
+}
+	
+input[type="text"] {
+    
+    display: inline-grid
+;
+
+}
+h3{
+	font-size: 50px;
+	background-color: darkcyan;
+	color: white;
+	display: flex; justify-content: center;
+	align-items: center; 
+	height: 50px;>
+ 
+}
+h4{
+	font-size: 50px;
+	background-color: tan;
+	color: white;
+	
+	
+}
+form.name {
+    background-color: beige;
+    padding: 30px;
+    
+    font-size: 27px;
+    width: 1660px;
+    height: 150px;
+}
+footer {
+    background:  brown;
+    clear: both;
+    text-align: center;
+    padding: 0% 0px;
+    font-size: 35px;
+    font-weight: 500;
+    width: 100%;
+}
+p{
+	font-size: 25px;
+   
+}
+	
+}
+h1 {
+    color: blue;
+}
+
+ table {
+      border-collapse: collapse;
+      width: 90%;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: center;
+	  color:green;
+	 background-color: #f4f4f4;
+	 font-size:20px;
+    }
+    th {
+      background-color: red;
+	  color: yellow;
+	  font-size: 30px;
+	}
+	
+
+.sides {
+	height: 250px;
+	width: 30%;
+	background-color: skyblue;
+	border: 2px solid black;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+.kawasaki{
+	text-align: center;
+	padding: 40px;
+	background-color: balck;
+	color; white;
+}
+.kawasaki h3{
+	font-size:32px
+	
+	
+	
+}
+.div-a{
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	flex-wrap: wrap;
+	
+	
+}
+.div-bb{
+	background-color: gray;
+	border-radius: 12px;
+	padding: 10px;
+	width: 400px;
+	cursor: pointer;
+	
+}
+h5{
+	font-size: 20px;
+	color: white;
+}
+
+h6{
+	font-size: 25px;
+	color: darkcyan;
+	
+}
+
+
+
+form {
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 30px;
+    max-width: 1400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+    fieldset {
+      border: 2px solid black;
+      border-radius: 15px;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    legend {
+      font-weight: bold;
+      color: brown;
+      padding: 0 10px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      color: #555;
+    }
+	input:hover{
+	
+	background-color: gray;
+	}
